@@ -6,12 +6,13 @@ main.py
 
 
 404.html
-- This is just a basic 404 example.
+- This is the 404 example using blocks for shorter html structure and imports from the example html.
 
 
-example.html and example2.html
-- Example html file for using "blocks" in the templates.
+example.html
+- This is the homepage and the first one that opens when visiting the wesbite.
 
 ############################################################################
 
-![404 Page](https://user-images.githubusercontent.com/123611980/227431193-8c057fa3-110e-48c5-9b35-e20d3b3a9cb1.png)
+
+![404page](https://user-images.githubusercontent.com/123611980/229306124-17e88666-5d27-4aa9-a764-5d05cf8b58f2.png)
