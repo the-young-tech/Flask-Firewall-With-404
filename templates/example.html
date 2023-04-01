@@ -8,16 +8,17 @@
         <link rel="stylesheet" type="text/css" href="/static/example.css">
     </head>
     <body>
+        {% block content %}
         <header>
             <a href="#" class="logo">Logo</a>
             <ul>
-                {% block content %}
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">Login</a></li>
                 <li><a href="#">Images</a></li>
                 <li><a href="#">Contact</a></li>
-                {% endblock %}
             </ul>
         </header>
+        <script src="/static/home.js"></script>
+        {% endblock %}
     </body>
 </html>
