@@ -14,7 +14,7 @@ def example2():
 
 forbidden_agents = ['sqlmap', 'wget', 'curl']
 
-forbidden_characters = ['//', '..', '~', '\\', '?', '!', '%']
+forbidden_characters = ['//', '..', '~', '\\', '$', '$$' '%', '&', '%%', '&&', '!', '!!']
 
 forbidden_extensions = ['.php', '.py']
 
