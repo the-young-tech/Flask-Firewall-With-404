@@ -5,10 +5,6 @@ app = Flask(__name__)
 @app.route('/')
 def example():
     return render_template('example.html')
-  
-@app.route('/example2')
-def example2():
-    return render_template('example2.html')
 
 ### Custom Firewall -> Forbidden Agents, Characters, Extensions
 
